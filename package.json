@@ -1,0 +1,22 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app/index.js",
+  "dependencies": {
+    "app-root-path": "^3.0.0",
+    "crypto": "^1.0.1",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "pg": "^7.18.1",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

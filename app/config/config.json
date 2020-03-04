@@ -1,0 +1,10 @@
+[
+    {
+    	"host": "localhost",
+    	"database": "node",
+        "user": "postgres",   
+        "password": "root",
+        "port": 5432,
+        "apiport": 3000
+    }
+]
