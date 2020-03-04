@@ -1,8 +1,8 @@
-# nodejs-postgresql-express-rest-api
+#nodejs-postgresql-express-rest-api
 REST API prototype (Node JS, PostgreSQL, Express)
 
-Config
+##Config
 app/config/config.json
 
-Database
+##Database
 app/database
