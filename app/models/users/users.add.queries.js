@@ -29,7 +29,8 @@ const addUsers = (request, response) => {
   if(request.body.constructor === Object && Object.keys(request.body).length === 0) 
   {
     var msg = {
-      message: 'Empty paramaters!',
+      message: "error",
+      error_message: 'Empty paramaters!',
     }   
     response.status(200).json(msg);
   }

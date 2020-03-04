@@ -32,7 +32,8 @@ const updateUsers = (request, response) => {
   if(userid == 0)
   {
     var msg = {
-      message: 'Parameter userid is needed!',
+      message: "error",
+      error_message: 'Parameter userid is needed!',
     }   
     response.status(200).json(msg);
   }
@@ -40,7 +41,8 @@ const updateUsers = (request, response) => {
   if(request.body.constructor === Object && Object.keys(request.body).length === 0) 
   {
     var msg = {
-      message: 'Empty paramaters!',
+      message: "error",
+      error_message: 'Empty paramaters!',
     }   
     response.status(200).json(msg);
   }
