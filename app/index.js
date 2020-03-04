@@ -30,6 +30,9 @@ const db_add_users = require(AppRootDir+'/models/users/users.add.queries')
 app.post('/users/add/', db_add_users.addUsers)
 const db_update_users = require(AppRootDir+'/models/users/users.update.queries')
 app.post('/users/update/', db_update_users.updateUsers)
+//------------------------------- items
+const db_items = require(AppRootDir+'/models/items/items.queries')
+app.get('/items/', db_items.getItems)
 
 
 
